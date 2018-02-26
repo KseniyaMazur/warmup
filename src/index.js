@@ -1,3 +1,4 @@
 module.exports = function warmup(temperature) {
-  // your implementation here
+  const fromCelsiusToFahrenheit = temperature * 1.8 + 32;
+  return fromCelsiusToFahrenheit; 
 };
